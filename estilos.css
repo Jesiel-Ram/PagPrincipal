@@ -1,0 +1,107 @@
+*{ /*aplicará a todo lo que sea html*/
+    margin: 0; /*margen*/
+    padding: 0;
+}
+
+html, body{
+    left: 0;
+    top: 0;
+    height: 100%; /*alto*/
+    width: 100%; /*ancho*/
+    background-color: lightblue;
+    background-image: url("fondo.jpg");
+    background-size: 210%;
+}
+
+h1{
+
+    margin-top: 5%;
+    color:#fff;
+    text-align: center;
+
+}
+
+.button {
+ padding: 70px;
+margin-left: 15%;
+ }
+
+.button li {
+ display: inline;
+
+ }
+
+ .button li a {
+
+ font-family: Arial;
+ font-size: 20px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ /*background-color: none;*/
+ color: #fff;
+ margin-top: 1%;
+ border-top: 1px solid lightblue;
+ border-left: 1px solid lightblue;
+ border-right: 1px solid lightblue;
+ border-bottom: 1px solid lightblue;
+
+ }
+
+ .button li a: hover {
+ 
+ background-color: #2586d7;
+ margin-top: 15%;
+ margin-bottom: 10%;    
+ padding-bottom: 12%;
+
+ }
+
+.nav{
+
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 5%;    
+    
+}
+.borde{
+    border-top: 1px solid lightblue;
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+  border-radius: 15px;
+}
+.azul{
+    background: none;
+     color: #fff;
+     font-family: Arial;
+}
+
+.red{
+    background: none;
+    color:#fff;
+}
+.color{
+    background: none ;
+    color:#fff;
+}
+
+.nav2{
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+
+.nav3{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    margin-top: -233%;
+    margin-left: 120%;
+    
+}
